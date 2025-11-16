@@ -56,10 +56,8 @@ i.	Click ‘Recount Total Pericytes’ to update the pericyte count after adding
 j.	Click ‘Save Counts’ to save the new pericyte soma locations after adding or removing cells (saves as ‘filename_pericyteCounts.mat’). 
 k.	To draw ROI’s for regional analysis:
 i.	Click ‘Draw ROI’ and specify a name for your ROI. 
-ii.	Click ‘Count Pericytes in ROI’ and yellow crosshairs will appear on each detected pericyte and the number of pericytes will be displayed on the top.  
-1.	Will need to click this again if you do any more adding/removing after this step.
-2.	Data will save to the directory you are working in. The file will be called pericyteQuantification.mat. Open this file with MATLAB to see all your saved data. If you recounted cells in the ROI, the current number is the one closest to the bottom of the list. 
-3.	ROI coordinates will also be saved so vessel density can be calculated in imageJ.
+ii.	Click ‘Count Pericytes in ROI’ and yellow crosshairs will appear on each detected pericyte and the number of pericytes will be displayed on the top. Will need to click this again if you do any more adding/removing after this step.
+iii.	Data will save to the directory you are working in. The file will be called pericyteQuantification.mat. Open this file with MATLAB to see all your saved data. If you recounted cells in the ROI, the current number is the one closest to the bottom of the list. ROI coordinates will also be saved so vessel density can be calculated in imageJ.
 
 
 5.	Vessel Density analysis in ImageJ.
