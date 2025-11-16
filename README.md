@@ -7,8 +7,7 @@ d.	In ‘Training’ create a label for each object.
 i.	For PDGFRBCre-tdTomato animals I create a label for pericyte soma, pericyte processes, arterioles, and background. 
 e.	Train the algorithm by drawing each label onto your images. 
 f.	Click ‘Live Update’ to see what the probability maps currently look like. 
-i.	Toggle the eyes in the bottom left menu to see the predictions for each label. 
-1.	Look at the prediction for each, not the segmentation.
+i.	Toggle the eyes in the bottom left menu to see the predictions for each label. Look at the prediction for each, not the segmentation.
 g.	In ‘Prediction Export’ click ‘Choose Export Image Settings.’
 i.	Convert to Data Type: unsigned 8-bit
 ii.	Renormalize [min,max] from: 0 - 1 to 0 - 255.
